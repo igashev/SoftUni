@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunglasses", "Sunglasses\Su
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NineDigitMagicNumbers", "NineDigitMagicNumbers\NineDigitMagicNumbers.csproj", "{289D5D5C-69A2-4D94-8281-D75464D48F61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellerBob", "TravellerBob\TravellerBob.csproj", "{9F6CE769-0A98-4101-94E3-EFC55D8F3A12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{289D5D5C-69A2-4D94-8281-D75464D48F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{289D5D5C-69A2-4D94-8281-D75464D48F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{289D5D5C-69A2-4D94-8281-D75464D48F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6CE769-0A98-4101-94E3-EFC55D8F3A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6CE769-0A98-4101-94E3-EFC55D8F3A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6CE769-0A98-4101-94E3-EFC55D8F3A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6CE769-0A98-4101-94E3-EFC55D8F3A12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
