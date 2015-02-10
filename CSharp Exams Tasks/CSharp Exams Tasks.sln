@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEvenSum", "OddEvenSum\Od
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheExplorer", "TheExplorer\TheExplorer.csproj", "{F1224463-F144-4EEB-B104-D74B5C1E3B95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoroTheFootballPlayer", "JoroTheFootballPlayer\JoroTheFootballPlayer.csproj", "{4EA70E34-294E-4811-94A4-38424D78F855}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F1224463-F144-4EEB-B104-D74B5C1E3B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1224463-F144-4EEB-B104-D74B5C1E3B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1224463-F144-4EEB-B104-D74B5C1E3B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA70E34-294E-4811-94A4-38424D78F855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA70E34-294E-4811-94A4-38424D78F855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA70E34-294E-4811-94A4-38424D78F855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA70E34-294E-4811-94A4-38424D78F855}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
