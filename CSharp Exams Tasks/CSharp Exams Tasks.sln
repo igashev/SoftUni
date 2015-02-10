@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheExplorer", "TheExplorer\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoroTheFootballPlayer", "JoroTheFootballPlayer\JoroTheFootballPlayer.csproj", "{4EA70E34-294E-4811-94A4-38424D78F855}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalfSum", "HalfSum\HalfSum.csproj", "{52393D16-3A76-41AA-A6F5-4A7E5AE94439}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4EA70E34-294E-4811-94A4-38424D78F855}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EA70E34-294E-4811-94A4-38424D78F855}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EA70E34-294E-4811-94A4-38424D78F855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52393D16-3A76-41AA-A6F5-4A7E5AE94439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52393D16-3A76-41AA-A6F5-4A7E5AE94439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52393D16-3A76-41AA-A6F5-4A7E5AE94439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52393D16-3A76-41AA-A6F5-4A7E5AE94439}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
