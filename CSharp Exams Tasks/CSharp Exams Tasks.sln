@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellerBob", "TravellerBo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkHours", "WorkHours\WorkHours.csproj", "{BCEE4BDD-2DFB-4287-A650-FB92C8198769}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfElements", "SumOfElements\SumOfElements.csproj", "{F06BDA34-76B2-4367-9E54-2572DDC53220}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{BCEE4BDD-2DFB-4287-A650-FB92C8198769}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCEE4BDD-2DFB-4287-A650-FB92C8198769}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCEE4BDD-2DFB-4287-A650-FB92C8198769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06BDA34-76B2-4367-9E54-2572DDC53220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06BDA34-76B2-4367-9E54-2572DDC53220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06BDA34-76B2-4367-9E54-2572DDC53220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06BDA34-76B2-4367-9E54-2572DDC53220}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
