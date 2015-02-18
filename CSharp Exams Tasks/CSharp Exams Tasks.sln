@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Headphones", "Headphones\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockLq", "RockLq\RockLq.csproj", "{E4754D7C-6407-4890-A6EE-AB95ABC04B8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plane", "Plane\Plane.csproj", "{80B9B713-7872-404B-A537-6439362BDA90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{E4754D7C-6407-4890-A6EE-AB95ABC04B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4754D7C-6407-4890-A6EE-AB95ABC04B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4754D7C-6407-4890-A6EE-AB95ABC04B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80B9B713-7872-404B-A537-6439362BDA90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B9B713-7872-404B-A537-6439362BDA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B9B713-7872-404B-A537-6439362BDA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B9B713-7872-404B-A537-6439362BDA90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
