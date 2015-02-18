@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicStrings", "MagicString
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boat", "Boat\Boat.csproj", "{10A8B767-1EBA-497A-BFE1-A622482455C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Headphones", "Headphones\Headphones.csproj", "{2413DD48-A9A1-43B7-936F-CBCEC2BEFEEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{10A8B767-1EBA-497A-BFE1-A622482455C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10A8B767-1EBA-497A-BFE1-A622482455C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10A8B767-1EBA-497A-BFE1-A622482455C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2413DD48-A9A1-43B7-936F-CBCEC2BEFEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2413DD48-A9A1-43B7-936F-CBCEC2BEFEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2413DD48-A9A1-43B7-936F-CBCEC2BEFEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2413DD48-A9A1-43B7-936F-CBCEC2BEFEEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
