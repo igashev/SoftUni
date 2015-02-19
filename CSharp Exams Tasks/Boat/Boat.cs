@@ -11,7 +11,7 @@ public class Boat
         int rightSideSailDots = n;
 
         int bodyDots = 0;
-        int bodyAsterixes = 2 * n;
+        int bodyAsterisks = 2 * n;
 
         for (int i = 0; i < (n / 2) + 1; i++)
         {
@@ -32,9 +32,9 @@ public class Boat
 
         for (int i = 0; i < (n - 1) / 2; i++)
         {
-            PrintBody(bodyDots, bodyAsterixes);
+            PrintBody(bodyDots, bodyAsterisks);
             bodyDots++;
-            bodyAsterixes -= 2;
+            bodyAsterisks -= 2;
         }
     }
 
