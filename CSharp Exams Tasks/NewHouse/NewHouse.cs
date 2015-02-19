@@ -6,14 +6,14 @@ public class NewHouse
     {
         int height = int.Parse(Console.ReadLine());
         int dashes = height / 2;
-        int asterixes = 1;
+        int asterisks = 1;
 
         while (dashes >= 0)
         {
-            PrintRoof(dashes, asterixes);
+            PrintRoof(dashes, asterisks);
             Console.WriteLine();
             dashes--;
-            asterixes += 2;
+            asterisks += 2;
         }
 
         for (int i = 0; i < height; i++)
@@ -29,14 +29,14 @@ public class NewHouse
         }
     }
 
-    private static void PrintRoof(int dashes, int asterixes)
+    private static void PrintRoof(int dashes, int asterisks)
     {
         for (int i = 0; i < dashes; i++)
         {
             Console.Write('-');
         }
 
-        for (int i = 0; i < asterixes; i++)
+        for (int i = 0; i < asterisks; i++)
         {
             Console.Write('*');
         }

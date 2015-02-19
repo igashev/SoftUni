@@ -6,7 +6,7 @@ public class Boat
     {
         int n = int.Parse(Console.ReadLine());
 
-        int sailAsterixes = 1;
+        int sailAsterisks = 1;
         int leftSideSailDots = n;
         int rightSideSailDots = n;
 
@@ -15,19 +15,19 @@ public class Boat
 
         for (int i = 0; i < (n / 2) + 1; i++)
         {
-            PrintSail(sailAsterixes, leftSideSailDots, rightSideSailDots);
+            PrintSail(sailAsterisks, leftSideSailDots, rightSideSailDots);
             leftSideSailDots -= 2;
-            sailAsterixes += 2;
+            sailAsterisks += 2;
         }
 
         leftSideSailDots += 2;
-        sailAsterixes -= 2;
+        sailAsterisks -= 2;
 
         for (int i = 0; i < (n / 2); i++)
         {
             leftSideSailDots += 2;
-            sailAsterixes -= 2;
-            PrintSail(sailAsterixes, leftSideSailDots, rightSideSailDots);
+            sailAsterisks -= 2;
+            PrintSail(sailAsterisks, leftSideSailDots, rightSideSailDots);
         }
 
         for (int i = 0; i < (n - 1) / 2; i++)
@@ -38,14 +38,14 @@ public class Boat
         }
     }
 
-    private static void PrintSail(int asterixes, int leftsSideDots, int rightSideDots)
+    private static void PrintSail(int asterisks, int leftsSideDots, int rightSideDots)
     {
         for (int i = 0; i < leftsSideDots - 1; i++)
         {
             Console.Write('.');
         }
 
-        for (int i = 0; i < asterixes; i++)
+        for (int i = 0; i < asterisks; i++)
         {
             Console.Write('*');
         }

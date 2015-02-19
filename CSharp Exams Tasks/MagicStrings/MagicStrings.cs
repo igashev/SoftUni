@@ -44,7 +44,9 @@ public class MagicStrings
                 }
             }
         }
+
         sequences.Sort();
+
         if (sequences.Count == 0)
         {
             Console.WriteLine("No");

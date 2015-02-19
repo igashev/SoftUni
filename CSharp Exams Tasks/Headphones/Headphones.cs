@@ -7,20 +7,20 @@ public class Headphones
         int diameter = int.Parse(Console.ReadLine());
         int outerDashesCount = diameter / 2;
         int innerDashesCount = diameter;
-        int asterixesCount = 1;
+        int asterisksCount = 1;
 
         FirstLineHeadband(diameter, outerDashesCount);
 
         for (int i = 0; i < diameter - 1; i++)
         {
-            RestOfTheHeadphones(asterixesCount, outerDashesCount, innerDashesCount);
+            RestOfTheHeadphones(asterisksCount, outerDashesCount, innerDashesCount);
         }
 
         for (int i = 0; i < diameter / 2; i++)
         {
-            RestOfTheHeadphones(asterixesCount, outerDashesCount, innerDashesCount);
+            RestOfTheHeadphones(asterisksCount, outerDashesCount, innerDashesCount);
             outerDashesCount--;
-            asterixesCount += 2;
+            asterisksCount += 2;
             innerDashesCount -= 2;
         }
 
@@ -29,9 +29,9 @@ public class Headphones
         for (int i = 0; i < diameter / 2; i++)
         {
             outerDashesCount++;
-            asterixesCount -= 2;
+            asterisksCount -= 2;
             innerDashesCount += 2;
-            RestOfTheHeadphones(asterixesCount, outerDashesCount, innerDashesCount);
+            RestOfTheHeadphones(asterisksCount, outerDashesCount, innerDashesCount);
         }
     }
 
@@ -42,14 +42,14 @@ public class Headphones
         Console.WriteLine("{0}{1}{0}", firstLineDashes, firstLineAsterixes);
     }
 
-    private static void RestOfTheHeadphones(int asterixes, int outerDashes, int innerDashes)
+    private static void RestOfTheHeadphones(int asterisks, int outerDashes, int innerDashes)
     {
         for (int i = 0; i < outerDashes; i++)
         {
             Console.Write('-');
         }
 
-        for (int i = 0; i < asterixes; i++)
+        for (int i = 0; i < asterisks; i++)
         {
             Console.Write('*');
         }
@@ -59,7 +59,7 @@ public class Headphones
             Console.Write('-');
         }
 
-        for (int i = 0; i < asterixes; i++)
+        for (int i = 0; i < asterisks; i++)
         {
             Console.Write('*');
         }
