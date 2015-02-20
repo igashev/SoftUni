@@ -11,7 +11,8 @@ public class Car
         int topOuterDotsCount = n - 1;
         int topInnerDotsCount = n;
 
-        string middleFirstLine = string.Format(new string('*', (n / 2) + 1) + new string('.', (3 * n) - (2 * ((n / 2) + 1))) +
+        string middleFirstLine = string.Format(new string('*', (n / 2) + 1) + 
+            new string('.', (3 * n) - (2 * ((n / 2) + 1))) +
             new string('*', (n / 2) + 1));
         int middleLinesCount = (n / 2) - 2;
         int middleInnerDotsCount = (3 * n) - 2;
@@ -21,11 +22,19 @@ public class Car
         int bottomOuterDotsCount = n / 2;
         int bottomInnerDotsCount = (n / 2) - 1;
         int bottomMiddleDotsCount = n - 2;
-        string bottom = string.Format(new string('.', bottomOuterDotsCount) + '*' + new string('.', bottomInnerDotsCount) +
-            '*' + new string('.', bottomMiddleDotsCount) + '*' + new string('.', bottomInnerDotsCount) + '*' + new string('.', bottomOuterDotsCount));
+        string bottom = string.Format(
+            new string('.', bottomOuterDotsCount) + '*' + 
+            new string('.', bottomInnerDotsCount) + '*' + 
+            new string('.', bottomMiddleDotsCount) + '*' + 
+            new string('.', bottomInnerDotsCount) + '*' + 
+            new string('.', bottomOuterDotsCount));
         int bottomLastLineAsterisksCount = (n / 2) + 1;
-        string bottomLastLine = string.Format(new string('.', bottomOuterDotsCount) + new string('*', bottomLastLineAsterisksCount) +
-            new string('.', bottomMiddleDotsCount) + new string('*', bottomLastLineAsterisksCount) + new string('.', bottomOuterDotsCount));
+        string bottomLastLine = string.Format(
+            new string('.', bottomOuterDotsCount) + 
+            new string('*', bottomLastLineAsterisksCount) +
+            new string('.', bottomMiddleDotsCount) + 
+            new string('*', bottomLastLineAsterisksCount) + 
+            new string('.', bottomOuterDotsCount));
 
         Console.WriteLine(topFirstLine);
         for (int i = 0; i < topLinesCount; i++)
