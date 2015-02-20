@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plane", "Plane\Plane.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Star", "Star\Star.csproj", "{26AA439C-415A-4935-A7FB-FFCBA82641FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car", "Car\Car.csproj", "{81AD0C8E-7476-471E-A38D-42E57A26859B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{26AA439C-415A-4935-A7FB-FFCBA82641FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26AA439C-415A-4935-A7FB-FFCBA82641FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26AA439C-415A-4935-A7FB-FFCBA82641FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81AD0C8E-7476-471E-A38D-42E57A26859B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AD0C8E-7476-471E-A38D-42E57A26859B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AD0C8E-7476-471E-A38D-42E57A26859B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81AD0C8E-7476-471E-A38D-42E57A26859B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
