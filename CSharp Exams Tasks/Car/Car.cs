@@ -11,7 +11,8 @@ public class Car
         int topOuterDotsCount = n - 1;
         int topInnerDotsCount = n;
 
-        string middleFirstLine = string.Format(new string('*', (n / 2) + 1) + 
+        string middleFirstLine = string.Format(
+            new string('*', (n / 2) + 1) + 
             new string('.', (3 * n) - (2 * ((n / 2) + 1))) +
             new string('*', (n / 2) + 1));
         int middleLinesCount = (n / 2) - 2;
