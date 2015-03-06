@@ -6,6 +6,7 @@ public class OddEvenSum
     {
         int countOfNumbers = int.Parse(Console.ReadLine());
         int[] numbers = new int[countOfNumbers * 2];
+
         for (int i = 0; i < numbers.Length; i++)
         {
             numbers[i] = int.Parse(Console.ReadLine());
